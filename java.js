@@ -14,12 +14,11 @@ function ready() {
     firstinput.forEach(c => {
         
       for (let i = 0; i < c.length; i++) {
-        
         code.push(c.charCodeAt(i));
+        code[i] = code[i] + firstinput[0].length;
       }
-
+      code.push(" ");
     });
-
 
     paragraph.append(code);
     };
