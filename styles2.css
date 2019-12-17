@@ -1,12 +1,12 @@
 .main {
-    background: grey;
+    background: green
 }
 
 h1 {
-    color: red;
+    color: black;
     text-align: center;
 }
 
-.sentence {
+.output {
     text-align: center;
 }
