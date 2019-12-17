@@ -32,4 +32,5 @@ document.addEventListener("DOMContentLoaded", ready);
 
 
 //[i].charCodeAt(0)
+
     
